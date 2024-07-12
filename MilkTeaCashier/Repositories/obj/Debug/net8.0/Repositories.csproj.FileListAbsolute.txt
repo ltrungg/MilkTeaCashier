@@ -1,0 +1,15 @@
+E:\Studyyyyyyyy\SUMMER2024\PRN212\Project\PRN212\MilkTeaCashier\Repositories\bin\Debug\net8.0\Repositories.deps.json
+E:\Studyyyyyyyy\SUMMER2024\PRN212\Project\PRN212\MilkTeaCashier\Repositories\bin\Debug\net8.0\Repositories.dll
+E:\Studyyyyyyyy\SUMMER2024\PRN212\Project\PRN212\MilkTeaCashier\Repositories\bin\Debug\net8.0\Repositories.pdb
+E:\Studyyyyyyyy\SUMMER2024\PRN212\Project\PRN212\MilkTeaCashier\Repositories\obj\Debug\net8.0\Repositories.GeneratedMSBuildEditorConfig.editorconfig
+E:\Studyyyyyyyy\SUMMER2024\PRN212\Project\PRN212\MilkTeaCashier\Repositories\obj\Debug\net8.0\Repositories.AssemblyInfoInputs.cache
+E:\Studyyyyyyyy\SUMMER2024\PRN212\Project\PRN212\MilkTeaCashier\Repositories\obj\Debug\net8.0\Repositories.AssemblyInfo.cs
+E:\Studyyyyyyyy\SUMMER2024\PRN212\Project\PRN212\MilkTeaCashier\Repositories\obj\Debug\net8.0\Repositories.csproj.CoreCompileInputs.cache
+E:\Studyyyyyyyy\SUMMER2024\PRN212\Project\PRN212\MilkTeaCashier\Repositories\obj\Debug\net8.0\Repositories.sourcelink.json
+E:\Studyyyyyyyy\SUMMER2024\PRN212\Project\PRN212\MilkTeaCashier\Repositories\obj\Debug\net8.0\Repositories.dll
+E:\Studyyyyyyyy\SUMMER2024\PRN212\Project\PRN212\MilkTeaCashier\Repositories\obj\Debug\net8.0\refint\Repositories.dll
+E:\Studyyyyyyyy\SUMMER2024\PRN212\Project\PRN212\MilkTeaCashier\Repositories\obj\Debug\net8.0\Repositories.pdb
+E:\Studyyyyyyyy\SUMMER2024\PRN212\Project\PRN212\MilkTeaCashier\Repositories\obj\Debug\net8.0\ref\Repositories.dll
+E:\Studyyyyyyyy\SUMMER2024\PRN212\Project\PRN212\MilkTeaCashier\Repositories\bin\Debug\net8.0\Repositories.runtimeconfig.json
+E:\Studyyyyyyyy\SUMMER2024\PRN212\Project\PRN212\MilkTeaCashier\Repositories\obj\Debug\net8.0\Repositories.csproj.AssemblyReference.cache
+E:\Studyyyyyyyy\SUMMER2024\PRN212\Project\PRN212\MilkTeaCashier\Repositories\obj\Debug\net8.0\Repositories.genruntimeconfig.cache

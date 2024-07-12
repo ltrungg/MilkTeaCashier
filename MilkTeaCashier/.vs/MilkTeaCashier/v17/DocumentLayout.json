@@ -1,0 +1,137 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "E:\\Studyyyyyyyy\\SUMMER2024\\PRN212\\Project\\PRN212\\MilkTeaCashier\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{F8F86F4E-1FEF-4187-B140-AF17E02D15D9}|MilkTeaCashier\\MilkTeaCashier.csproj|E:\\Studyyyyyyyy\\SUMMER2024\\PRN212\\Project\\PRN212\\MilkTeaCashier\\milkteacashier\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{F8F86F4E-1FEF-4187-B140-AF17E02D15D9}|MilkTeaCashier\\MilkTeaCashier.csproj|solutionrelative:milkteacashier\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F2318746-E9D1-4367-80F7-71E4037E13D5}|Repositories\\Repositories.csproj|e:\\studyyyyyyyy\\summer2024\\prn212\\project\\prn212\\milkteacashier\\repositories\\milkteacashiercontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F2318746-E9D1-4367-80F7-71E4037E13D5}|Repositories\\Repositories.csproj|solutionrelative:repositories\\milkteacashiercontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F8F86F4E-1FEF-4187-B140-AF17E02D15D9}|MilkTeaCashier\\MilkTeaCashier.csproj|e:\\studyyyyyyyy\\summer2024\\prn212\\project\\prn212\\milkteacashier\\milkteacashier\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{F8F86F4E-1FEF-4187-B140-AF17E02D15D9}|MilkTeaCashier\\MilkTeaCashier.csproj|solutionrelative:milkteacashier\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A1543363-91C2-4699-AB87-0AC592AB1440}|Services\\Services.csproj|e:\\studyyyyyyyy\\summer2024\\prn212\\project\\prn212\\milkteacashier\\services\\class1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A1543363-91C2-4699-AB87-0AC592AB1440}|Services\\Services.csproj|solutionrelative:services\\class1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F2318746-E9D1-4367-80F7-71E4037E13D5}|Repositories\\Repositories.csproj|E:\\Studyyyyyyyy\\SUMMER2024\\PRN212\\Project\\PRN212\\MilkTeaCashier\\repositories\\class1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F2318746-E9D1-4367-80F7-71E4037E13D5}|Repositories\\Repositories.csproj|solutionrelative:repositories\\class1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F8F86F4E-1FEF-4187-B140-AF17E02D15D9}|MilkTeaCashier\\MilkTeaCashier.csproj|E:\\Studyyyyyyyy\\SUMMER2024\\PRN212\\Project\\PRN212\\MilkTeaCashier\\milkteacashier\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F8F86F4E-1FEF-4187-B140-AF17E02D15D9}|MilkTeaCashier\\MilkTeaCashier.csproj|solutionrelative:milkteacashier\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 8,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "MilkTeaCashierContext.cs",
+              "DocumentMoniker": "E:\\Studyyyyyyyy\\SUMMER2024\\PRN212\\Project\\PRN212\\MilkTeaCashier\\Repositories\\MilkTeaCashierContext.cs",
+              "RelativeDocumentMoniker": "Repositories\\MilkTeaCashierContext.cs",
+              "ToolTip": "E:\\Studyyyyyyyy\\SUMMER2024\\PRN212\\Project\\PRN212\\MilkTeaCashier\\Repositories\\MilkTeaCashierContext.cs",
+              "RelativeToolTip": "Repositories\\MilkTeaCashierContext.cs",
+              "ViewState": "AQIAABsAAAAAAAAAAAAmwCEAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-12T16:09:29.026Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{b1e99781-ab81-11d0-b683-00aa00a3ee26}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c64b9c2-e352-428e-a56d-0ace190b99a6}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:1:0:{e8b06f52-6d01-11d2-aa7d-00c04f990343}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "E:\\Studyyyyyyyy\\SUMMER2024\\PRN212\\Project\\PRN212\\MilkTeaCashier\\MilkTeaCashier\\appsettings.json",
+              "RelativeDocumentMoniker": "MilkTeaCashier\\appsettings.json",
+              "ToolTip": "E:\\Studyyyyyyyy\\SUMMER2024\\PRN212\\Project\\PRN212\\MilkTeaCashier\\MilkTeaCashier\\appsettings.json",
+              "RelativeToolTip": "MilkTeaCashier\\appsettings.json",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAUAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-07-12T16:07:31.896Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Class1.cs",
+              "DocumentMoniker": "E:\\Studyyyyyyyy\\SUMMER2024\\PRN212\\Project\\PRN212\\MilkTeaCashier\\Services\\Class1.cs",
+              "RelativeDocumentMoniker": "Services\\Class1.cs",
+              "ToolTip": "E:\\Studyyyyyyyy\\SUMMER2024\\PRN212\\Project\\PRN212\\MilkTeaCashier\\Services\\Class1.cs",
+              "RelativeToolTip": "Services\\Class1.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAQAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-12T15:49:05.007Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Class1.cs",
+              "DocumentMoniker": "E:\\Studyyyyyyyy\\SUMMER2024\\PRN212\\Project\\PRN212\\MilkTeaCashier\\Repositories\\Class1.cs",
+              "RelativeDocumentMoniker": "Repositories\\Class1.cs",
+              "ToolTip": "E:\\Studyyyyyyyy\\SUMMER2024\\PRN212\\Project\\PRN212\\MilkTeaCashier\\Repositories\\Class1.cs",
+              "RelativeToolTip": "Repositories\\Class1.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-12T15:48:29.36Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "MainWindow.xaml",
+              "DocumentMoniker": "E:\\Studyyyyyyyy\\SUMMER2024\\PRN212\\Project\\PRN212\\MilkTeaCashier\\MilkTeaCashier\\MainWindow.xaml",
+              "RelativeDocumentMoniker": "MilkTeaCashier\\MainWindow.xaml",
+              "ToolTip": "E:\\Studyyyyyyyy\\SUMMER2024\\PRN212\\Project\\PRN212\\MilkTeaCashier\\MilkTeaCashier\\MainWindow.xaml",
+              "RelativeToolTip": "MilkTeaCashier\\MainWindow.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-07-12T15:46:49.63Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "MainWindow.xaml.cs",
+              "DocumentMoniker": "E:\\Studyyyyyyyy\\SUMMER2024\\PRN212\\Project\\PRN212\\MilkTeaCashier\\MilkTeaCashier\\MainWindow.xaml.cs",
+              "RelativeDocumentMoniker": "MilkTeaCashier\\MainWindow.xaml.cs",
+              "ToolTip": "E:\\Studyyyyyyyy\\SUMMER2024\\PRN212\\Project\\PRN212\\MilkTeaCashier\\MilkTeaCashier\\MainWindow.xaml.cs",
+              "RelativeToolTip": "MilkTeaCashier\\MainWindow.xaml.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-12T15:46:47.448Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
