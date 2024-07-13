@@ -1,30 +1,66 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "E:\\Studyyyyyyyy\\SUMMER2024\\PRN212\\Project\\PRN212\\MilkTeaCashier\\",
+  "WorkspaceRootPath": "D:\\Code\\luan\\MilkTeaCashier\\MilkTeaCashier\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{F8F86F4E-1FEF-4187-B140-AF17E02D15D9}|MilkTeaCashier\\MilkTeaCashier.csproj|E:\\Studyyyyyyyy\\SUMMER2024\\PRN212\\Project\\PRN212\\MilkTeaCashier\\milkteacashier\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{F8F86F4E-1FEF-4187-B140-AF17E02D15D9}|MilkTeaCashier\\MilkTeaCashier.csproj|solutionrelative:milkteacashier\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+      "AbsoluteMoniker": "D:0:0:{9CB261DA-C5F1-43F1-9970-7533AA25B722}|MilkTeaCashier\\MilkTeaCashier.csproj|d:\\code\\luan\\milkteacashier\\milkteacashier\\milkteacashier\\accountwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9CB261DA-C5F1-43F1-9970-7533AA25B722}|MilkTeaCashier\\MilkTeaCashier.csproj|solutionrelative:milkteacashier\\accountwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{F2318746-E9D1-4367-80F7-71E4037E13D5}|Repositories\\Repositories.csproj|e:\\studyyyyyyyy\\summer2024\\prn212\\project\\prn212\\milkteacashier\\repositories\\milkteacashiercontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F2318746-E9D1-4367-80F7-71E4037E13D5}|Repositories\\Repositories.csproj|solutionrelative:repositories\\milkteacashiercontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{9CB261DA-C5F1-43F1-9970-7533AA25B722}|MilkTeaCashier\\MilkTeaCashier.csproj|d:\\code\\luan\\milkteacashier\\milkteacashier\\milkteacashier\\loginwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9CB261DA-C5F1-43F1-9970-7533AA25B722}|MilkTeaCashier\\MilkTeaCashier.csproj|solutionrelative:milkteacashier\\loginwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{F8F86F4E-1FEF-4187-B140-AF17E02D15D9}|MilkTeaCashier\\MilkTeaCashier.csproj|e:\\studyyyyyyyy\\summer2024\\prn212\\project\\prn212\\milkteacashier\\milkteacashier\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{F8F86F4E-1FEF-4187-B140-AF17E02D15D9}|MilkTeaCashier\\MilkTeaCashier.csproj|solutionrelative:milkteacashier\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+      "AbsoluteMoniker": "D:0:0:{9CB261DA-C5F1-43F1-9970-7533AA25B722}|MilkTeaCashier\\MilkTeaCashier.csproj|d:\\code\\luan\\milkteacashier\\milkteacashier\\milkteacashier\\accountwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{9CB261DA-C5F1-43F1-9970-7533AA25B722}|MilkTeaCashier\\MilkTeaCashier.csproj|solutionrelative:milkteacashier\\accountwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A1543363-91C2-4699-AB87-0AC592AB1440}|Services\\Services.csproj|e:\\studyyyyyyyy\\summer2024\\prn212\\project\\prn212\\milkteacashier\\services\\class1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A1543363-91C2-4699-AB87-0AC592AB1440}|Services\\Services.csproj|solutionrelative:services\\class1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{9CB261DA-C5F1-43F1-9970-7533AA25B722}|MilkTeaCashier\\MilkTeaCashier.csproj|d:\\code\\luan\\milkteacashier\\milkteacashier\\milkteacashier\\loginwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{9CB261DA-C5F1-43F1-9970-7533AA25B722}|MilkTeaCashier\\MilkTeaCashier.csproj|solutionrelative:milkteacashier\\loginwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{F2318746-E9D1-4367-80F7-71E4037E13D5}|Repositories\\Repositories.csproj|E:\\Studyyyyyyyy\\SUMMER2024\\PRN212\\Project\\PRN212\\MilkTeaCashier\\repositories\\class1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F2318746-E9D1-4367-80F7-71E4037E13D5}|Repositories\\Repositories.csproj|solutionrelative:repositories\\class1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{675EC9A7-BB72-45B8-A0A1-85A168FFE3D8}|Repositories\\Repositories.csproj|d:\\code\\luan\\milkteacashier\\milkteacashier\\repositories\\entities\\milkteacashiercontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{675EC9A7-BB72-45B8-A0A1-85A168FFE3D8}|Repositories\\Repositories.csproj|solutionrelative:repositories\\entities\\milkteacashiercontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{F8F86F4E-1FEF-4187-B140-AF17E02D15D9}|MilkTeaCashier\\MilkTeaCashier.csproj|E:\\Studyyyyyyyy\\SUMMER2024\\PRN212\\Project\\PRN212\\MilkTeaCashier\\milkteacashier\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F8F86F4E-1FEF-4187-B140-AF17E02D15D9}|MilkTeaCashier\\MilkTeaCashier.csproj|solutionrelative:milkteacashier\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{377C5A9D-D3A4-4A89-91AB-FAF058D55415}|Services\\Services.csproj|d:\\code\\luan\\milkteacashier\\milkteacashier\\services\\servicebase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{377C5A9D-D3A4-4A89-91AB-FAF058D55415}|Services\\Services.csproj|solutionrelative:services\\servicebase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{377C5A9D-D3A4-4A89-91AB-FAF058D55415}|Services\\Services.csproj|d:\\code\\luan\\milkteacashier\\milkteacashier\\services\\billservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{377C5A9D-D3A4-4A89-91AB-FAF058D55415}|Services\\Services.csproj|solutionrelative:services\\billservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{377C5A9D-D3A4-4A89-91AB-FAF058D55415}|Services\\Services.csproj|d:\\code\\luan\\milkteacashier\\milkteacashier\\services\\accountservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{377C5A9D-D3A4-4A89-91AB-FAF058D55415}|Services\\Services.csproj|solutionrelative:services\\accountservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{675EC9A7-BB72-45B8-A0A1-85A168FFE3D8}|Repositories\\Repositories.csproj|d:\\code\\luan\\milkteacashier\\milkteacashier\\repositories\\entities\\account.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{675EC9A7-BB72-45B8-A0A1-85A168FFE3D8}|Repositories\\Repositories.csproj|solutionrelative:repositories\\entities\\account.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{675EC9A7-BB72-45B8-A0A1-85A168FFE3D8}|Repositories\\Repositories.csproj|d:\\code\\luan\\milkteacashier\\milkteacashier\\repositories\\repositories.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{675EC9A7-BB72-45B8-A0A1-85A168FFE3D8}|Repositories\\Repositories.csproj|solutionrelative:repositories\\repositories.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9CB261DA-C5F1-43F1-9970-7533AA25B722}|MilkTeaCashier\\MilkTeaCashier.csproj|d:\\code\\luan\\milkteacashier\\milkteacashier\\milkteacashier\\milkteacashier.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{9CB261DA-C5F1-43F1-9970-7533AA25B722}|MilkTeaCashier\\MilkTeaCashier.csproj|solutionrelative:milkteacashier\\milkteacashier.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9CB261DA-C5F1-43F1-9970-7533AA25B722}|MilkTeaCashier\\MilkTeaCashier.csproj|d:\\code\\luan\\milkteacashier\\milkteacashier\\milkteacashier\\app.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{9CB261DA-C5F1-43F1-9970-7533AA25B722}|MilkTeaCashier\\MilkTeaCashier.csproj|solutionrelative:milkteacashier\\app.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{377C5A9D-D3A4-4A89-91AB-FAF058D55415}|Services\\Services.csproj|d:\\code\\luan\\milkteacashier\\milkteacashier\\services\\beverageservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{377C5A9D-D3A4-4A89-91AB-FAF058D55415}|Services\\Services.csproj|solutionrelative:services\\beverageservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{377C5A9D-D3A4-4A89-91AB-FAF058D55415}|Services\\Services.csproj|d:\\code\\luan\\milkteacashier\\milkteacashier\\services\\billinfoservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{377C5A9D-D3A4-4A89-91AB-FAF058D55415}|Services\\Services.csproj|solutionrelative:services\\billinfoservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{377C5A9D-D3A4-4A89-91AB-FAF058D55415}|Services\\Services.csproj|d:\\code\\luan\\milkteacashier\\milkteacashier\\services\\beveragecategoryservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{377C5A9D-D3A4-4A89-91AB-FAF058D55415}|Services\\Services.csproj|solutionrelative:services\\beveragecategoryservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -34,100 +70,201 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 8,
+          "SelectedChildIndex": 7,
           "Children": [
             {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "MilkTeaCashierContext.cs",
-              "DocumentMoniker": "E:\\Studyyyyyyyy\\SUMMER2024\\PRN212\\Project\\PRN212\\MilkTeaCashier\\Repositories\\MilkTeaCashierContext.cs",
-              "RelativeDocumentMoniker": "Repositories\\MilkTeaCashierContext.cs",
-              "ToolTip": "E:\\Studyyyyyyyy\\SUMMER2024\\PRN212\\Project\\PRN212\\MilkTeaCashier\\Repositories\\MilkTeaCashierContext.cs",
-              "RelativeToolTip": "Repositories\\MilkTeaCashierContext.cs",
-              "ViewState": "AQIAABsAAAAAAAAAAAAmwCEAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-12T16:09:29.026Z",
-              "EditorCaption": ""
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{d84ee353-0bef-5a41-a649-8f89aca5d84d}"
             },
             {
               "$type": "Bookmark",
-              "Name": "ST:0:0:{b1e99781-ab81-11d0-b683-00aa00a3ee26}"
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{1c64b9c2-e352-428e-a56d-0ace190b99a6}"
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:1:0:{e8b06f52-6d01-11d2-aa7d-00c04f990343}"
+              "Name": "ST:0:0:{cce594b6-0c39-4442-ba28-10c64ac7e89f}"
             },
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
             },
             {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "appsettings.json",
-              "DocumentMoniker": "E:\\Studyyyyyyyy\\SUMMER2024\\PRN212\\Project\\PRN212\\MilkTeaCashier\\MilkTeaCashier\\appsettings.json",
-              "RelativeDocumentMoniker": "MilkTeaCashier\\appsettings.json",
-              "ToolTip": "E:\\Studyyyyyyyy\\SUMMER2024\\PRN212\\Project\\PRN212\\MilkTeaCashier\\MilkTeaCashier\\appsettings.json",
-              "RelativeToolTip": "MilkTeaCashier\\appsettings.json",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAUAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2024-07-12T16:07:31.896Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "Class1.cs",
-              "DocumentMoniker": "E:\\Studyyyyyyyy\\SUMMER2024\\PRN212\\Project\\PRN212\\MilkTeaCashier\\Services\\Class1.cs",
-              "RelativeDocumentMoniker": "Services\\Class1.cs",
-              "ToolTip": "E:\\Studyyyyyyyy\\SUMMER2024\\PRN212\\Project\\PRN212\\MilkTeaCashier\\Services\\Class1.cs",
-              "RelativeToolTip": "Services\\Class1.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAQAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-12T15:49:05.007Z",
-              "EditorCaption": ""
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
             },
             {
               "$type": "Document",
               "DocumentIndex": 4,
-              "Title": "Class1.cs",
-              "DocumentMoniker": "E:\\Studyyyyyyyy\\SUMMER2024\\PRN212\\Project\\PRN212\\MilkTeaCashier\\Repositories\\Class1.cs",
-              "RelativeDocumentMoniker": "Repositories\\Class1.cs",
-              "ToolTip": "E:\\Studyyyyyyyy\\SUMMER2024\\PRN212\\Project\\PRN212\\MilkTeaCashier\\Repositories\\Class1.cs",
-              "RelativeToolTip": "Repositories\\Class1.cs",
+              "Title": "MilkTeaCashierContext.cs",
+              "DocumentMoniker": "D:\\Code\\luan\\MilkTeaCashier\\MilkTeaCashier\\Repositories\\Entities\\MilkTeaCashierContext.cs",
+              "RelativeDocumentMoniker": "Repositories\\Entities\\MilkTeaCashierContext.cs",
+              "ToolTip": "D:\\Code\\luan\\MilkTeaCashier\\MilkTeaCashier\\Repositories\\Entities\\MilkTeaCashierContext.cs",
+              "RelativeToolTip": "Repositories\\Entities\\MilkTeaCashierContext.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-12T15:48:29.36Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-07-13T07:19:25.542Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "Repositories.csproj",
+              "DocumentMoniker": "D:\\Code\\luan\\MilkTeaCashier\\MilkTeaCashier\\Repositories\\Repositories.csproj",
+              "RelativeDocumentMoniker": "Repositories\\Repositories.csproj",
+              "ToolTip": "D:\\Code\\luan\\MilkTeaCashier\\MilkTeaCashier\\Repositories\\Repositories.csproj",
+              "RelativeToolTip": "Repositories\\Repositories.csproj",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2024-07-13T03:11:35.468Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "MilkTeaCashier.csproj",
+              "DocumentMoniker": "D:\\Code\\luan\\MilkTeaCashier\\MilkTeaCashier\\MilkTeaCashier\\MilkTeaCashier.csproj",
+              "RelativeDocumentMoniker": "MilkTeaCashier\\MilkTeaCashier.csproj",
+              "ToolTip": "D:\\Code\\luan\\MilkTeaCashier\\MilkTeaCashier\\MilkTeaCashier\\MilkTeaCashier.csproj",
+              "RelativeToolTip": "MilkTeaCashier\\MilkTeaCashier.csproj",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2024-07-13T03:11:10.453Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "MainWindow.xaml",
-              "DocumentMoniker": "E:\\Studyyyyyyyy\\SUMMER2024\\PRN212\\Project\\PRN212\\MilkTeaCashier\\MilkTeaCashier\\MainWindow.xaml",
-              "RelativeDocumentMoniker": "MilkTeaCashier\\MainWindow.xaml",
-              "ToolTip": "E:\\Studyyyyyyyy\\SUMMER2024\\PRN212\\Project\\PRN212\\MilkTeaCashier\\MilkTeaCashier\\MainWindow.xaml",
-              "RelativeToolTip": "MilkTeaCashier\\MainWindow.xaml",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2024-07-12T15:46:49.63Z",
+              "Title": "AccountWindow.xaml.cs",
+              "DocumentMoniker": "D:\\Code\\luan\\MilkTeaCashier\\MilkTeaCashier\\MilkTeaCashier\\AccountWindow.xaml.cs",
+              "RelativeDocumentMoniker": "MilkTeaCashier\\AccountWindow.xaml.cs",
+              "ToolTip": "D:\\Code\\luan\\MilkTeaCashier\\MilkTeaCashier\\MilkTeaCashier\\AccountWindow.xaml.cs",
+              "RelativeToolTip": "MilkTeaCashier\\AccountWindow.xaml.cs",
+              "ViewState": "AQIAAE0AAAAAAAAAAAAEwJgAAAAMAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-13T03:09:12.108Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "MainWindow.xaml.cs",
-              "DocumentMoniker": "E:\\Studyyyyyyyy\\SUMMER2024\\PRN212\\Project\\PRN212\\MilkTeaCashier\\MilkTeaCashier\\MainWindow.xaml.cs",
-              "RelativeDocumentMoniker": "MilkTeaCashier\\MainWindow.xaml.cs",
-              "ToolTip": "E:\\Studyyyyyyyy\\SUMMER2024\\PRN212\\Project\\PRN212\\MilkTeaCashier\\MilkTeaCashier\\MainWindow.xaml.cs",
-              "RelativeToolTip": "MilkTeaCashier\\MainWindow.xaml.cs",
+              "DocumentIndex": 8,
+              "Title": "Account.cs",
+              "DocumentMoniker": "D:\\Code\\luan\\MilkTeaCashier\\MilkTeaCashier\\Repositories\\Entities\\Account.cs",
+              "RelativeDocumentMoniker": "Repositories\\Entities\\Account.cs",
+              "ToolTip": "D:\\Code\\luan\\MilkTeaCashier\\MilkTeaCashier\\Repositories\\Entities\\Account.cs",
+              "RelativeToolTip": "Repositories\\Entities\\Account.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAATAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-13T03:04:39.543Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "LoginWindow.xaml.cs",
+              "DocumentMoniker": "D:\\Code\\luan\\MilkTeaCashier\\MilkTeaCashier\\MilkTeaCashier\\LoginWindow.xaml.cs",
+              "RelativeDocumentMoniker": "MilkTeaCashier\\LoginWindow.xaml.cs",
+              "ToolTip": "D:\\Code\\luan\\MilkTeaCashier\\MilkTeaCashier\\MilkTeaCashier\\LoginWindow.xaml.cs",
+              "RelativeToolTip": "MilkTeaCashier\\LoginWindow.xaml.cs",
+              "ViewState": "AQIAABkAAAAAAAAAAIBAwC0AAAAMAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-13T02:47:52.031Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "App.xaml",
+              "DocumentMoniker": "D:\\Code\\luan\\MilkTeaCashier\\MilkTeaCashier\\MilkTeaCashier\\App.xaml",
+              "RelativeDocumentMoniker": "MilkTeaCashier\\App.xaml",
+              "ToolTip": "D:\\Code\\luan\\MilkTeaCashier\\MilkTeaCashier\\MilkTeaCashier\\App.xaml",
+              "RelativeToolTip": "MilkTeaCashier\\App.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-07-13T02:47:40.668Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "LoginWindow.xaml",
+              "DocumentMoniker": "D:\\Code\\luan\\MilkTeaCashier\\MilkTeaCashier\\MilkTeaCashier\\LoginWindow.xaml",
+              "RelativeDocumentMoniker": "MilkTeaCashier\\LoginWindow.xaml",
+              "ToolTip": "D:\\Code\\luan\\MilkTeaCashier\\MilkTeaCashier\\MilkTeaCashier\\LoginWindow.xaml",
+              "RelativeToolTip": "MilkTeaCashier\\LoginWindow.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-07-13T02:26:01.466Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "AccountWindow.xaml",
+              "DocumentMoniker": "D:\\Code\\luan\\MilkTeaCashier\\MilkTeaCashier\\MilkTeaCashier\\AccountWindow.xaml",
+              "RelativeDocumentMoniker": "MilkTeaCashier\\AccountWindow.xaml",
+              "ToolTip": "D:\\Code\\luan\\MilkTeaCashier\\MilkTeaCashier\\MilkTeaCashier\\AccountWindow.xaml",
+              "RelativeToolTip": "MilkTeaCashier\\AccountWindow.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-07-13T02:26:00.823Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "BillService.cs",
+              "DocumentMoniker": "D:\\Code\\luan\\MilkTeaCashier\\MilkTeaCashier\\Services\\BillService.cs",
+              "RelativeDocumentMoniker": "Services\\BillService.cs",
+              "ToolTip": "D:\\Code\\luan\\MilkTeaCashier\\MilkTeaCashier\\Services\\BillService.cs",
+              "RelativeToolTip": "Services\\BillService.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-12T15:46:47.448Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-07-13T02:25:48.477Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "BillInfoService.cs",
+              "DocumentMoniker": "D:\\Code\\luan\\MilkTeaCashier\\MilkTeaCashier\\Services\\BillInfoService.cs",
+              "RelativeDocumentMoniker": "Services\\BillInfoService.cs",
+              "ToolTip": "D:\\Code\\luan\\MilkTeaCashier\\MilkTeaCashier\\Services\\BillInfoService.cs",
+              "RelativeToolTip": "Services\\BillInfoService.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-13T02:25:48.025Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "BeverageService.cs",
+              "DocumentMoniker": "D:\\Code\\luan\\MilkTeaCashier\\MilkTeaCashier\\Services\\BeverageService.cs",
+              "RelativeDocumentMoniker": "Services\\BeverageService.cs",
+              "ToolTip": "D:\\Code\\luan\\MilkTeaCashier\\MilkTeaCashier\\Services\\BeverageService.cs",
+              "RelativeToolTip": "Services\\BeverageService.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-13T02:25:46.842Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "BeverageCategoryService.cs",
+              "DocumentMoniker": "D:\\Code\\luan\\MilkTeaCashier\\MilkTeaCashier\\Services\\BeverageCategoryService.cs",
+              "RelativeDocumentMoniker": "Services\\BeverageCategoryService.cs",
+              "ToolTip": "D:\\Code\\luan\\MilkTeaCashier\\MilkTeaCashier\\Services\\BeverageCategoryService.cs",
+              "RelativeToolTip": "Services\\BeverageCategoryService.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-13T02:25:46.011Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "AccountService.cs",
+              "DocumentMoniker": "D:\\Code\\luan\\MilkTeaCashier\\MilkTeaCashier\\Services\\AccountService.cs",
+              "RelativeDocumentMoniker": "Services\\AccountService.cs",
+              "ToolTip": "D:\\Code\\luan\\MilkTeaCashier\\MilkTeaCashier\\Services\\AccountService.cs",
+              "RelativeToolTip": "Services\\AccountService.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAtAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-13T02:25:44.267Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "ServiceBase.cs",
+              "DocumentMoniker": "D:\\Code\\luan\\MilkTeaCashier\\MilkTeaCashier\\Services\\ServiceBase.cs",
+              "RelativeDocumentMoniker": "Services\\ServiceBase.cs",
+              "ToolTip": "D:\\Code\\luan\\MilkTeaCashier\\MilkTeaCashier\\Services\\ServiceBase.cs",
+              "RelativeToolTip": "Services\\ServiceBase.cs",
+              "ViewState": "AQIAACwAAAAAAAAAAAAqwDwAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-13T02:25:43.384Z"
             }
           ]
         }

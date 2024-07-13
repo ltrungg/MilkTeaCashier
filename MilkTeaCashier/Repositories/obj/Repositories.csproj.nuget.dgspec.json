@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "E:\\Studyyyyyyyy\\SUMMER2024\\PRN212\\Project\\PRN212\\MilkTeaCashier\\Repositories\\Repositories.csproj": {}
+    "D:\\Code\\luan\\MilkTeaCashier\\MilkTeaCashier\\Repositories\\Repositories.csproj": {}
   },
   "projects": {
-    "E:\\Studyyyyyyyy\\SUMMER2024\\PRN212\\Project\\PRN212\\MilkTeaCashier\\Repositories\\Repositories.csproj": {
+    "D:\\Code\\luan\\MilkTeaCashier\\MilkTeaCashier\\Repositories\\Repositories.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "E:\\Studyyyyyyyy\\SUMMER2024\\PRN212\\Project\\PRN212\\MilkTeaCashier\\Repositories\\Repositories.csproj",
+        "projectUniqueName": "D:\\Code\\luan\\MilkTeaCashier\\MilkTeaCashier\\Repositories\\Repositories.csproj",
         "projectName": "Repositories",
-        "projectPath": "E:\\Studyyyyyyyy\\SUMMER2024\\PRN212\\Project\\PRN212\\MilkTeaCashier\\Repositories\\Repositories.csproj",
-        "packagesPath": "C:\\Users\\trung\\.nuget\\packages\\",
-        "outputPath": "E:\\Studyyyyyyyy\\SUMMER2024\\PRN212\\Project\\PRN212\\MilkTeaCashier\\Repositories\\obj\\",
+        "projectPath": "D:\\Code\\luan\\MilkTeaCashier\\MilkTeaCashier\\Repositories\\Repositories.csproj",
+        "packagesPath": "C:\\Users\\luan.tran\\.nuget\\packages\\",
+        "outputPath": "D:\\Code\\luan\\MilkTeaCashier\\MilkTeaCashier\\Repositories\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\trung\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\luan.tran\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -47,23 +47,19 @@
           "dependencies": {
             "Microsoft.EntityFrameworkCore": {
               "target": "Package",
-              "version": "[8.0.7, )"
+              "version": "[8.0.6, )"
             },
             "Microsoft.EntityFrameworkCore.Design": {
-              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
-              "suppressParent": "All",
               "target": "Package",
-              "version": "[8.0.7, )"
+              "version": "[8.0.6, )"
             },
             "Microsoft.EntityFrameworkCore.SqlServer": {
               "target": "Package",
-              "version": "[8.0.7, )"
+              "version": "[8.0.6, )"
             },
             "Microsoft.EntityFrameworkCore.Tools": {
-              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
-              "suppressParent": "All",
               "target": "Package",
-              "version": "[8.0.7, )"
+              "version": "[8.0.6, )"
             },
             "Microsoft.Extensions.Configuration": {
               "target": "Package",
@@ -90,7 +86,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.204/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.303/PortableRuntimeIdentifierGraph.json"
         }
       }
     }

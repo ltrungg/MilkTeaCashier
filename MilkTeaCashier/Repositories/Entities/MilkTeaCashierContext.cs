@@ -2,9 +2,8 @@
 using System.Collections.Generic;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Configuration;
-using Repositories.Entities;
 
-namespace Repositories;
+namespace Repositories.Entities;
 
 public partial class MilkTeaCashierContext : DbContext
 {
@@ -26,12 +25,6 @@ public partial class MilkTeaCashierContext : DbContext
     public virtual DbSet<Bill> Bills { get; set; }
 
     public virtual DbSet<BillInfo> BillInfos { get; set; }
-
-    protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
-#warning To protect potentially sensitive information in your connection string, you should move it out of source code. You can avoid scaffolding the connection string by using the Name= syntax to read it from configuration - see https://go.microsoft.com/fwlink/?linkid=2131148. For more guidance on storing connection strings, see https://go.microsoft.com/fwlink/?LinkId=723263.
-        => optionsBuilder.UseSqlServer(GetConnectionString());
-
-
     private string? GetConnectionString()
     {
         IConfiguration configuration = new ConfigurationBuilder()
@@ -39,11 +32,15 @@ public partial class MilkTeaCashierContext : DbContext
                 .AddJsonFile("appsettings.json", true, true).Build();
         return configuration["ConnectionStrings:DefaultConnectionStringDB"];
     }
+
+    protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
+        => optionsBuilder.UseSqlServer(GetConnectionString());
+
     protected override void OnModelCreating(ModelBuilder modelBuilder)
     {
         modelBuilder.Entity<Account>(entity =>
         {
-            entity.HasKey(e => e.UserName).HasName("PK__Account__C9F284578A0FE073");
+            entity.HasKey(e => e.UserName).HasName("PK__Account__C9F28457C917395E");
 
             entity.ToTable("Account");
 
@@ -58,7 +55,7 @@ public partial class MilkTeaCashierContext : DbContext
 
         modelBuilder.Entity<Beverage>(entity =>
         {
-            entity.HasKey(e => e.Id).HasName("PK__Beverage__3213E83F6F6A88D4");
+            entity.HasKey(e => e.Id).HasName("PK__Beverage__3213E83F577E012B");
 
             entity.ToTable("Beverage");
 
@@ -78,7 +75,7 @@ public partial class MilkTeaCashierContext : DbContext
 
         modelBuilder.Entity<BeverageCategory>(entity =>
         {
-            entity.HasKey(e => e.Id).HasName("PK__Beverage__3213E83FB8AA26CB");
+            entity.HasKey(e => e.Id).HasName("PK__Beverage__3213E83F7B5A5FE9");
 
             entity.ToTable("BeverageCategory");
 
@@ -91,7 +88,7 @@ public partial class MilkTeaCashierContext : DbContext
 
         modelBuilder.Entity<Bill>(entity =>
         {
-            entity.HasKey(e => e.Id).HasName("PK__Bill__3213E83F134BDC57");
+            entity.HasKey(e => e.Id).HasName("PK__Bill__3213E83F4387811C");
 
             entity.ToTable("Bill");
 
@@ -102,7 +99,7 @@ public partial class MilkTeaCashierContext : DbContext
 
         modelBuilder.Entity<BillInfo>(entity =>
         {
-            entity.HasKey(e => e.Id).HasName("PK__BillInfo__3213E83F55F1C4F1");
+            entity.HasKey(e => e.Id).HasName("PK__BillInfo__3213E83F2FCFA8E9");
 
             entity.ToTable("BillInfo");
 
