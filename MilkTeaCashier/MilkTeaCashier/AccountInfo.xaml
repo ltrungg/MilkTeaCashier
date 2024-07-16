@@ -1,0 +1,22 @@
+﻿<Window x:Class="MilkTeaCashier.AccountInfo"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:MilkTeaCashier"
+        mc:Ignorable="d"
+        Title="AccountInfo" Height="450" Width="800" Loaded="Window_Loaded">
+    <Grid>
+        <Rectangle HorizontalAlignment="Center" Height="332" Stroke="Black" VerticalAlignment="Center" Width="660" Fill="#FF99B4D1"/>
+        <Label Content="User Name :" HorizontalAlignment="Left" Margin="124,69,0,0" VerticalAlignment="Top" FontFamily="Segoe UI" FontSize="25"/>
+        <TextBox x:Name="UsernameTextBox" HorizontalAlignment="Left" Margin="357,77,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="328" FontFamily="Segoe UI" FontSize="25"/>
+        <Label Content="Display Name :" HorizontalAlignment="Left" Margin="124,140,0,0" VerticalAlignment="Top" FontFamily="Segoe UI" FontSize="25" RenderTransformOrigin="0.456,0.591"/>
+        <TextBox x:Name="DisplayNameTextBox" HorizontalAlignment="Left" Margin="357,148,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="328" FontFamily="Segoe UI" FontSize="25" RenderTransformOrigin="0.509,0.104"/>
+        <Label Content="Password :" HorizontalAlignment="Left" Margin="124,211,0,0" VerticalAlignment="Top" FontFamily="Segoe UI" FontSize="25"/>
+        <TextBox x:Name="PasswordTextBox" HorizontalAlignment="Left" Margin="357,219,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="328" FontFamily="Segoe UI" FontSize="25" RenderTransformOrigin="0.509,0.104"/>
+        <Button x:Name="ChangePasswordButton" Content="Change Password " HorizontalAlignment="Left" Height="39" Margin="124,299,0,0" VerticalAlignment="Top" Width="181" FontSize="20" RenderTransformOrigin="-0.083,0.46" Click="ChangePasswordButton_Click"/>
+        <Button x:Name="ExitButton" Content="Exit" HorizontalAlignment="Left" Height="39" Margin="591,299,0,0" VerticalAlignment="Top" Width="94" FontSize="20" Click="ExitButton_Click"/>
+        <Button x:Name="UpdateButton" Content="Update" HorizontalAlignment="Left" Height="39" Margin="423,299,0,0" VerticalAlignment="Top" Width="145" FontSize="20" Click="UpdateButton_Click"/>
+
+    </Grid>
+</Window>
