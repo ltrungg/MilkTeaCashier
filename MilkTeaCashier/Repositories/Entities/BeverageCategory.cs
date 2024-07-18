@@ -9,5 +9,7 @@ public partial class BeverageCategory
 
     public string Name { get; set; } = null!;
 
+    public string Status { get; set; } = null!;
+
     public virtual ICollection<Beverage> Beverages { get; set; } = new List<Beverage>();
 }

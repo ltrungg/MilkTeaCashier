@@ -8,8 +8,8 @@ namespace MilkTeaCashier
 
     public partial class BeverageWindow : Window
     {
-        private BeverageService _beverageService = new ();
-        private BeverageCategoryService _beverageCategoryService = new ();
+        private BeverageService _beverageService = new();
+        private BeverageCategoryService _beverageCategoryService = new();
         public BeverageWindow()
         {
             InitializeComponent();
@@ -27,8 +27,9 @@ namespace MilkTeaCashier
             BeverageNameTextBox.Text = string.Empty;
             PriceTextBox.Text = string.Empty;
             BeverageCategoryComboBox.SelectedValue = 1;
+            BeverageDataGrid.SelectedValue = null;
         }
-        
+
 
         private void LoadDataGrid()
         {
@@ -67,7 +68,7 @@ namespace MilkTeaCashier
 
         }
 
-        
+
         private void AddButton_Click(object sender, RoutedEventArgs e)
         {
             ClearData();
@@ -96,13 +97,24 @@ namespace MilkTeaCashier
 
         private void SaveButton_Click(object sender, RoutedEventArgs e)
         {
-            Beverage updateBeverage = new();
-            updateBeverage.Id = int.Parse(BeverageIDTextBox.Text);
-            updateBeverage.Name = BeverageNameTextBox.Text;
-            updateBeverage.Price = double.Parse(PriceTextBox.Text);
-            updateBeverage.IdCategory = int.Parse(BeverageCategoryComboBox.SelectedValue.ToString());
+            if (!InvalidInput()) return;
 
-            _beverageService.UpdateBeverage(updateBeverage);
+            Beverage b = new();
+            Beverage selectedBeverage = BeverageDataGrid.SelectedValue as Beverage;
+            b.Name = BeverageNameTextBox.Text;
+            b.Price = double.Parse(PriceTextBox.Text);
+            b.IdCategory = int.Parse(BeverageCategoryComboBox.SelectedValue.ToString());
+            b.Status = "active";
+
+            if (selectedBeverage != null)
+            {
+                b.Id = int.Parse(BeverageIDTextBox.Text);
+                _beverageService.UpdateBeverage(b);
+            }
+            else
+            {
+                _beverageService.AddBeverage(b);
+            }
             BeverageDetailsGrid.Visibility = Visibility.Collapsed;
 
             LoadDataGrid();
@@ -112,6 +124,46 @@ namespace MilkTeaCashier
         private void CloseButton_Click(object sender, RoutedEventArgs e)
         {
             BeverageDetailsGrid.Visibility = Visibility.Collapsed;
+            ClearData();
+        }
+
+        private void SearchButton_Click(object sender, RoutedEventArgs e)
+        {
+            string beverageName = SearchTextBox.Text;
+            List<Beverage> listBeverage = _beverageService.SearchBeverage(beverageName);
+
+            if (listBeverage.Count == 0)
+            {
+                MessageBox.Show("No results found for your search.", "Not Found", MessageBoxButton.OK, MessageBoxImage.Exclamation);
+                return;
+            }
+
+            BeverageDataGrid.ItemsSource = null;
+            BeverageDataGrid.ItemsSource = listBeverage;
+        }
+
+        private bool InvalidInput()
+        {
+            if (string.IsNullOrWhiteSpace(BeverageNameTextBox.Text) || string.IsNullOrWhiteSpace(PriceTextBox.Text))
+            {
+                MessageBox.Show("All fields are required!", "Invalid input", MessageBoxButton.OK, MessageBoxImage.Exclamation);
+                return false;
+            }
+
+
+            if (!double.TryParse(PriceTextBox.Text, out double price))
+            {
+                MessageBox.Show("Please input Price as number!", "Invalid input", MessageBoxButton.OK, MessageBoxImage.Exclamation);
+                return false;
+            }
+
+            if (price <= 0 || price > 1_000_000)
+            {
+                MessageBox.Show("Price is greater than 0 and less than 1 000 000", "Invalid input", MessageBoxButton.OK, MessageBoxImage.Exclamation);
+                return false;
+            }
+
+            return true;
         }
     }
 }

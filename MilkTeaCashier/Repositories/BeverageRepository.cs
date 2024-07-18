@@ -10,13 +10,20 @@ namespace Repositories
         public List<Beverage> GetBeverages()
         {
             _context = new MilkTeaCashierContext(); 
-            return _context.Beverages.Include("IdCategoryNavigation").ToList();
+            return _context.Beverages.Include("IdCategoryNavigation").Where(x => x.Status.Equals("active")).ToList();
+        }
+
+        public void AddBeverage(Beverage beverage)
+        {
+            _context = new MilkTeaCashierContext();
+            _context.Add(beverage);
+            _context.SaveChanges();
         }
 
         public void DeleteBevrage(Beverage beverage)
         {
             _context = new MilkTeaCashierContext();
-            _context.Remove(beverage);
+            _context.Update(beverage);
             _context.SaveChanges();
         }
 

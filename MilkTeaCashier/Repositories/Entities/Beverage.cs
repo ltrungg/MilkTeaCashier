@@ -13,6 +13,8 @@ public partial class Beverage
 
     public double Price { get; set; }
 
+    public string Status { get; set; } = null!;
+
     public virtual ICollection<BillInfo> BillInfos { get; set; } = new List<BillInfo>();
 
     public virtual BeverageCategory IdCategoryNavigation { get; set; } = null!;
