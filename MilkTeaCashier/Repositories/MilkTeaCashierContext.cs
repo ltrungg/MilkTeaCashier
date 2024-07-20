@@ -29,7 +29,7 @@ public partial class MilkTeaCashierContext : DbContext
 
     protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
 #warning To protect potentially sensitive information in your connection string, you should move it out of source code. You can avoid scaffolding the connection string by using the Name= syntax to read it from configuration - see https://go.microsoft.com/fwlink/?linkid=2131148. For more guidance on storing connection strings, see https://go.microsoft.com/fwlink/?LinkId=723263.
-        => optionsBuilder.UseSqlServer(GetConnectionString());
+        => optionsBuilder.UseSqlServer("Server=(local);uid=sa;pwd=12345;database= MilkTeaCashier;TrustServerCertificate=True");
 
 
     private string? GetConnectionString()
@@ -43,7 +43,7 @@ public partial class MilkTeaCashierContext : DbContext
     {
         modelBuilder.Entity<Account>(entity =>
         {
-            entity.HasKey(e => e.UserName).HasName("PK__Account__C9F284578A0FE073");
+            entity.HasKey(e => e.UserName).HasName("PK__Account__C9F284572A836E2E");
 
             entity.ToTable("Account");
 
@@ -58,7 +58,7 @@ public partial class MilkTeaCashierContext : DbContext
 
         modelBuilder.Entity<Beverage>(entity =>
         {
-            entity.HasKey(e => e.Id).HasName("PK__Beverage__3213E83F6F6A88D4");
+            entity.HasKey(e => e.Id).HasName("PK__Beverage__3213E83F78162E11");
 
             entity.ToTable("Beverage");
 
@@ -69,16 +69,20 @@ public partial class MilkTeaCashierContext : DbContext
                 .HasDefaultValue("Chưa đặt tên")
                 .HasColumnName("name");
             entity.Property(e => e.Price).HasColumnName("price");
+            entity.Property(e => e.Status)
+                .HasMaxLength(50)
+                .HasDefaultValue("active")
+                .HasColumnName("status");
 
             entity.HasOne(d => d.IdCategoryNavigation).WithMany(p => p.Beverages)
                 .HasForeignKey(d => d.IdCategory)
                 .OnDelete(DeleteBehavior.ClientSetNull)
-                .HasConstraintName("FK__Beverage__price__534D60F1");
+                .HasConstraintName("FK__Beverage__price__412EB0B6");
         });
 
         modelBuilder.Entity<BeverageCategory>(entity =>
         {
-            entity.HasKey(e => e.Id).HasName("PK__Beverage__3213E83FB8AA26CB");
+            entity.HasKey(e => e.Id).HasName("PK__Beverage__3213E83FC56457C3");
 
             entity.ToTable("BeverageCategory");
 
@@ -87,11 +91,15 @@ public partial class MilkTeaCashierContext : DbContext
                 .HasMaxLength(100)
                 .HasDefaultValue("Chưa đặt tên")
                 .HasColumnName("name");
+            entity.Property(e => e.Status)
+                .HasMaxLength(50)
+                .HasDefaultValue("active")
+                .HasColumnName("status");
         });
 
         modelBuilder.Entity<Bill>(entity =>
         {
-            entity.HasKey(e => e.Id).HasName("PK__Bill__3213E83F134BDC57");
+            entity.HasKey(e => e.Id).HasName("PK__Bill__3213E83F00423020");
 
             entity.ToTable("Bill");
 
@@ -102,7 +110,7 @@ public partial class MilkTeaCashierContext : DbContext
 
         modelBuilder.Entity<BillInfo>(entity =>
         {
-            entity.HasKey(e => e.Id).HasName("PK__BillInfo__3213E83F55F1C4F1");
+            entity.HasKey(e => e.Id).HasName("PK__BillInfo__3213E83F985DEB46");
 
             entity.ToTable("BillInfo");
 
@@ -114,12 +122,12 @@ public partial class MilkTeaCashierContext : DbContext
             entity.HasOne(d => d.IdBeverageNavigation).WithMany(p => p.BillInfos)
                 .HasForeignKey(d => d.IdBeverage)
                 .OnDelete(DeleteBehavior.ClientSetNull)
-                .HasConstraintName("FK__BillInfo__idBeve__5BE2A6F2");
+                .HasConstraintName("FK__BillInfo__idBeve__49C3F6B7");
 
             entity.HasOne(d => d.IdBillNavigation).WithMany(p => p.BillInfos)
                 .HasForeignKey(d => d.IdBill)
                 .OnDelete(DeleteBehavior.ClientSetNull)
-                .HasConstraintName("FK__BillInfo__count__5AEE82B9");
+                .HasConstraintName("FK__BillInfo__count__48CFD27E");
         });
 
         OnModelCreatingPartial(modelBuilder);

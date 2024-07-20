@@ -3269,8 +3269,8 @@
     },
     "Repositories/1.0.0": {
       "type": "project",
-      "path": "../Repositories/Repositories.csproj",
-      "msbuildProject": "../Repositories/Repositories.csproj"
+      "path": "../Repository/Repositories.csproj",
+      "msbuildProject": "../Repository/Repositories.csproj"
     },
     "Services/1.0.0": {
       "type": "project",

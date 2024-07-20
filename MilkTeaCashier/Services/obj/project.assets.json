@@ -3123,8 +3123,8 @@
     },
     "Repositories/1.0.0": {
       "type": "project",
-      "path": "../Repositories/Repositories.csproj",
-      "msbuildProject": "../Repositories/Repositories.csproj"
+      "path": "../Repository/Repositories.csproj",
+      "msbuildProject": "../Repository/Repositories.csproj"
     }
   },
   "projectFileDependencyGroups": {
@@ -3159,8 +3159,8 @@
         "net8.0": {
           "targetAlias": "net8.0",
           "projectReferences": {
-            "C:\\Users\\ACER\\Desktop\\PRN212\\Project\\MilkTeaCashier\\Repositories\\Repositories.csproj": {
-              "projectPath": "C:\\Users\\ACER\\Desktop\\PRN212\\Project\\MilkTeaCashier\\Repositories\\Repositories.csproj"
+            "C:\\Users\\ACER\\Desktop\\PRN212\\Project\\MilkTeaCashier\\Repository\\Repositories.csproj": {
+              "projectPath": "C:\\Users\\ACER\\Desktop\\PRN212\\Project\\MilkTeaCashier\\Repository\\Repositories.csproj"
             }
           }
         }
