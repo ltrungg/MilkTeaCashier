@@ -30,6 +30,7 @@ namespace MilkTeaCashier
 
         private void Window_Loaded(object sender, RoutedEventArgs e)
         {
+            CurrentDateTextBlock.Text = DateTime.Now.ToString("D");
             FillDataGrid();
         }
         private void FillDataGrid()
@@ -57,6 +58,11 @@ namespace MilkTeaCashier
 
             _service.RemoveBill(selected);
             FillDataGrid();
+        }
+
+        private void QuitButton_Click(object sender, RoutedEventArgs e)
+        {
+            Application.Current.Shutdown();
         }
     }
 }

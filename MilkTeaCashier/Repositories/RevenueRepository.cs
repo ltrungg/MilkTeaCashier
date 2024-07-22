@@ -16,7 +16,7 @@ namespace Repositories
         public List<BillInfo> GetAll()
         {
             _context = new();
-            return _context.BillInfos.Include("IdBillNavigation").ToList();
+            return _context.BillInfos.Include("IdBillNavigation").Include("IdBeverageNavigation").ToList();
         }
 
         public void Delete(BillInfo x)
